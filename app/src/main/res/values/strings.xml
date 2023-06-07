@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">Lab4</string>
-    <string name="trueButton">True</string>
-    <string name="falseButton">False</string>
-    <string name="nextButton">Next</string>
-    <string name="questionText">Question</string>
+    <string name="false_button">False</string>
+    <string name="true_button">True</string>
+    <string name="question_text">Canberra is capital of Australia.</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
 </resources>
