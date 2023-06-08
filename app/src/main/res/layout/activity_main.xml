@@ -34,10 +34,27 @@
             tools:ignore="ButtonStyle" />
     </LinearLayout>
 
-    <Button
-        android:id="@+id/next_button"
-        android:layout_width="wrap_content"
+    <LinearLayout
         android:layout_height="wrap_content"
-        android:text="@string/next_button" />
+        android:layout_width="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/prev_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:src="@drawable/arrow_left"
+            tools:ignore="ButtonStyle,TouchTargetSizeCheck,ImageContrastCheck" />
+
+        <ImageButton
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:src="@drawable/arrow_right"
+            tools:ignore="ButtonStyle,TouchTargetSizeCheck,ImageContrastCheck" />
+
+    </LinearLayout>
 
 </LinearLayout>
